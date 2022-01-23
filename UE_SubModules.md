@@ -42,3 +42,15 @@ git add
 git commit -m "Removing [Submodule]"
 ```
 
+# Pushing Updates to a SubModule
+There is a general rule to always do things in branches, so to do this you would have to make a branch on that submodule(I recommend naming it the same as yours so its easier to find) and then push to that branch, you can commit files like normal though but you have to do it through commands.
+First commit your files in the submodule
+```
+cd [SubmoduleDirectory]
+git commit -a
+```
+Then push those changes
+```
+git push remote HEAD:[BranchName]
+```
+
