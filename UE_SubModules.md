@@ -52,6 +52,6 @@ git commit -a
 ```
 Then push those changes
 ```
-git push remote HEAD:[BranchName]
+git push origin HEAD:[BranchName]
 ```
 
