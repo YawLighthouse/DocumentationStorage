@@ -35,8 +35,8 @@ git mv [old path of submodule within the repo] [new path of submodule within the
 git submodule update
 ```
 
-Deleting unused submodules requires you to remove the referenced lines in .gitsubmodules and .git/config:
-[Stack Overflow Link](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+Deleting unused submodules requires you to remove the referenced lines in .gitsubmodules and .git/config: \
+[Stack Overflow Link](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule) \
 Removing the directory and from the .gitsubmodules file:
 ```
 git rm [SubmoduleDirectory]
