@@ -36,10 +36,14 @@ git submodule update
 ```
 
 Deleting unused submodules requires you to remove the referenced lines in .gitsubmodules and .git/config:
+[Stack Overflow Link](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+Removing the directory and from the .gitsubmodules file:
 ```
-rm -rf [submodule]-dir/
-git add
-git commit -m "Removing [Submodule]"
+git rm [SubmoduleDirectory]
+```
+Removing fromt the git config:
+```
+git config --remove-section submodule.[SubmoduleDirectory]
 ```
 
 # Pushing Updates to a SubModule
