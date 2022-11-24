@@ -12,7 +12,7 @@ so for example if your unreal engine project was named NicksUEProject and you wa
 then you would do
 ```
 cd NicksUEProject
-git submodule add https://github.com/Oldsiren/CoolUEPlugin.git Plugins/CoolUEPlugin
+git submodule add https://github.com/YawLighthouse/CoolUEPlugin.git Plugins/CoolUEPlugin
 git submodule update --init --recursive
 git commit -m "Added plugin: CoolUEPlugin"
 ```
